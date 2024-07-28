@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.5)  27 JUL 2024 18:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.5)  27 JUL 2024 18:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -335,18 +335,8 @@ Overfull \hbox (42.26195pt too wide) in paragraph at lines 79--92
 
 [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (2.9483pt too wide) in paragraph at lines 164--165
-[]\OT1/cmr/m/n/12 ``Does Dis-clo-sure Mat-ter? Cou-pling In-for-ma-tion to Per-for-mance in Texas,'' pa-per co-authored
- []
-
-[2]
-Overfull \hbox (1.28583pt too wide) in paragraph at lines 182--183
-[]\OT1/cmr/m/n/12 ``Outstanding Pro-grams and Po-ten-tial Pol-icy Dif-fu-sion Across the States,'' pa-per co-authored
- []
-
-[3] [4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [5]
-Overfull \hbox (2.19138pt too wide) in paragraph at lines 307--308
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [5]
+Overfull \hbox (2.19138pt too wide) in paragraph at lines 309--310
 []\OT1/cmr/m/n/12 Discussant, Fed-er-al-ism and In-ter-gov-ern-men-tal Re-la-tions Panel, An-nual Meet-ing of the South-
  []
 
@@ -365,12 +355,12 @@ Here is how much of TeX's memory you used:
  31413 multiletter control sequences out of 15000+600000
  562475 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,493b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,433b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on cv_adams_david_2024.pdf (7 pages, 115839 bytes).
+Output written on cv_adams_david_2024.pdf (7 pages, 116006 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  32 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
