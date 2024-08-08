@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1723139687.26787 "/Users/dpadams/Nextcloud/CV/2024/cv_adams_david_2024.tex" "cv_adams_david_2024.pdf" "cv_adams_david_2024" 1723139687.86031 0
-  "/Users/dpadams/Nextcloud/CV/2024/cv_adams_david_2024.tex" 1723139687.02132 17974 8a374d2f7b280ee0d15ec41d0c2a7b02 ""
+["pdflatex"] 1723139860.40536 "/Users/dpadams/Nextcloud/CV/2024/cv_adams_david_2024.tex" "cv_adams_david_2024.pdf" "cv_adams_david_2024" 1723139861.00307 0
+  "/Users/dpadams/Nextcloud/CV/2024/cv_adams_david_2024.tex" 1723139860.19388 17972 2a3f00a919bd2b786c09f69e3101f2fe ""
   "/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1710106625 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1710106625 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1710106625 5472554 f7861620179a71a79d4bd86251f559d0 ""
@@ -64,9 +64,9 @@
   "/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/tex/latex/url/url.sty" 1710106625 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/web2c/texmf.cnf" 1710106625 41652 e14926ab86fde7902cad99d9eeaa5ca5 ""
   "/opt/homebrew/Cellar/texlive/20240312_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1710106625 8221851 5146b755db1b51297976139fe7739199 ""
-  "cv_adams_david_2024.aux" 1723139687.77796 162 1048d5a6ab834159417e60c8f895d4f4 "pdflatex"
-  "cv_adams_david_2024.out" 1723139687.609 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cv_adams_david_2024.tex" 1723139687.02132 17974 8a374d2f7b280ee0d15ec41d0c2a7b02 ""
+  "cv_adams_david_2024.aux" 1723139860.93078 162 1048d5a6ab834159417e60c8f895d4f4 "pdflatex"
+  "cv_adams_david_2024.out" 1723139860.73359 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv_adams_david_2024.tex" 1723139860.19388 17972 2a3f00a919bd2b786c09f69e3101f2fe ""
   (generated)
   "cv_adams_david_2024.aux"
   "cv_adams_david_2024.log"
