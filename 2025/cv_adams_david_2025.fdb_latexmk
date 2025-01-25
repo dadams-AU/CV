@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1737696728.32379 "/home/dadams/Repos/CV/2025/cv_adams_david_2025.tex" "cv_adams_david_2025.pdf" "cv_adams_david_2025" 1737696729.29867 0
+["lualatex"] 1737829985.10364 "/home/dadams/Repos/CV/2025/cv_adams_david_2025.tex" "cv_adams_david_2025.pdf" "cv_adams_david_2025" 1737829986.08704 0
   "/home/dadams/.texlive/texmf-var/luatex-cache/generic/fonts/otl/firasans-bold.luc" 1737693751.45799 1844738 013570aa60ce8a5d3b2bc78f1308617e ""
   "/home/dadams/.texlive/texmf-var/luatex-cache/generic/fonts/otl/firasans-bolditalic.luc" 1737693749.49464 1878677 ca51f7cb0073dfb7c3644ad03f6ca815 ""
   "/home/dadams/.texlive/texmf-var/luatex-cache/generic/fonts/otl/firasans-italic.luc" 1737693753.48801 1717391 ec254dcfc0d8418bb7734d1ddfb0aeaf ""
@@ -122,8 +122,8 @@
   "/usr/share/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1727349926 13565 50482dad4c221a79dbdbb982122baf8c ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1733468204.6143 5312047 b07fcd2a9090df96fc745b92a3db793b ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1733468176 12261770 f720df0debe600f838d53c7a0b487f23 ""
-  "cv_adams_david_2025.aux" 1737696729.1762 162 1048d5a6ab834159417e60c8f895d4f4 "lualatex"
-  "cv_adams_david_2025.out" 1737696728.96286 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "cv_adams_david_2025.aux" 1737829985.97242 162 1048d5a6ab834159417e60c8f895d4f4 "lualatex"
+  "cv_adams_david_2025.out" 1737829985.75242 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   "cv_adams_david_2025.tex" 1737696699.81603 18588 670e3f7c499948586a8bc0a2dd038670 ""
   (generated)
   "cv_adams_david_2025.aux"

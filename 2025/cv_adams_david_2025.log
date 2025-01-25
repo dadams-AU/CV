@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.12.5)  23 JAN 2025 21:32
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.12.5)  25 JAN 2025 10:33
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/home/dadams/Repos/CV/2025/cv_adams_david_2025.tex
@@ -499,7 +499,7 @@ Here is how much of LuaTeX's memory you used:
  38 fonts using 9360543 bytes
  79i,5n,89p,434b,424s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-boldoblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf>
-Output written on cv_adams_david_2025.pdf (7 pages, 47331 bytes).
+Output written on cv_adams_david_2025.pdf (7 pages, 47330 bytes).
 
 PDF statistics: 103 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
