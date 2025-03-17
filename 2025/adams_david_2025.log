@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2025.3.5)  15 MAR 2025 11:40
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2025.3.5)  17 MAR 2025 16:24
  restricted system commands enabled.
  file:line:error style messages enabled.
-**/home/dadams/Repos/CV/2025/cv_adams_david_2025.tex
-(/home/dadams/Repos/CV/2025/cv_adams_david_2025.tex
+**/home/dadams/Repos/CV-1/2025/adams_david_2025.tex
+(/home/dadams/Repos/CV-1/2025/adams_david_2025.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
@@ -325,8 +325,8 @@ Package fontspec Info: Font family 'FiraSans(0)' created for font 'Fira Sans'
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
 (fontspec)             <->"name:FiraSans-BoldItalic:mode=node;script=latn;language=dflt;+tlig;+smcp;"
 
- (./cv_adams_david_2025.aux)
-\openout1 = cv_adams_david_2025.aux
+ (./adams_david_2025.aux)
+\openout1 = adams_david_2025.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
@@ -375,10 +375,10 @@ File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
 \everyMPtoPDFconversion=\toks22
 )) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 73.
- (./cv_adams_david_2025.out) (./cv_adams_david_2025.out)
+ (./adams_david_2025.out) (./adams_david_2025.out)
 \@outlinefile=\write3
 
-\openout3 = cv_adams_david_2025.out
+\openout3 = adams_david_2025.out
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -480,12 +480,12 @@ LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <12> not available
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/FiraSans(0)/m/it' tried instead on input line 178.
- [2] [3] [4] [5] [6] [7] (./cv_adams_david_2025.aux)
+ [2] [3] [4] [5] [6] [7] (./adams_david_2025.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `cv_adams_david_2025.out' has not changed.
+Package rerunfilecheck Info: File `adams_david_2025.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
@@ -497,9 +497,9 @@ Here is how much of LuaTeX's memory you used:
    avail lists: 1:2,2:470,3:270,4:102,5:1215,6:54,7:6883,9:305,10:5,11:614
  33820 multiletter control sequences out of 65536+600000
  38 fonts using 9360543 bytes
- 79i,5n,89p,434b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,5n,89p,433b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-boldoblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf>
-Output written on cv_adams_david_2025.pdf (7 pages, 44080 bytes).
+Output written on adams_david_2025.pdf (7 pages, 44079 bytes).
 
 PDF statistics: 104 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
