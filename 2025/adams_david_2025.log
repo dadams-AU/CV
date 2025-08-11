@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.26)  7 AUG 2025 22:34
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.26)  10 AUG 2025 20:47
  system commands enabled.
 **/home/dadams/Repos/CV/2025/adams_david_2025
 (/home/dadams/Repos/CV/2025/adams_david_2025.tex
@@ -496,17 +496,17 @@ Package rerunfilecheck Info: File `adams_david_2025.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  11778 strings out of 470133
  100000,794899 words of node,token memory allocated
- 481 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 8 attribute, 55 glue_spec, 8 attribute_list, 1 write, 4 pdf_action nodes
-   avail lists: 2:457,3:264,4:102,5:1195,6:55,7:6702,9:302,10:5,11:587
+ 491 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 9 attribute, 55 glue_spec, 9 attribute_list, 1 write, 5 pdf_action nodes
+   avail lists: 2:457,3:267,4:102,5:1195,6:55,7:6702,9:306,10:5,11:583
  39993 multiletter control sequences out of 65536+600000
  38 fonts using 9360543 bytes
  73i,5n,92p,416b,422s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/fonts/TTF/FiraSans-Italic.ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-boldoblique.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/fonts/TTF/FiraSans-Regular.ttf></usr/share/fonts/TTF/FiraSans-Bold.ttf>
-Output written on adams_david_2025.pdf (8 pages, 92316 bytes).
+Output written on adams_david_2025.pdf (8 pages, 92453 bytes).
 
-PDF statistics: 114 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+PDF statistics: 116 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  33 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
