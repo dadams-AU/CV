@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1758244745.66855 "/home/dadams/Repos/CV/2025/adams_david_2025.tex" "adams_david_2025.pdf" "adams_david_2025" 1758244746.75665 0
+["lualatex"] 1758247405.96458 "/home/dadams/Repos/CV/2025/adams_david_2025.tex" "adams_david_2025.pdf" "adams_david_2025" 1758247407.0211 0
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/firasans-bold.luc" 1752246305.07528 1844259 b815bc6eba2cf0099f1f624aeb34ec61 ""
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/firasans-bolditalic.luc" 1752246308.81731 1877264 70cf0e7f1c17ae8ddfbc8d0fa3cd114e ""
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/firasans-italic.luc" 1752246306.95229 1715568 bfd36feee72f219a1410f5dc965fd3bd ""
@@ -10,7 +10,7 @@
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-boldoblique.luc" 1752246309.01531 129727 979840346311c362b6e0aef0ecec1074 ""
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1758244691.28229 16050 1406c5342da3b648c14f074fa4af1396 ""
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1755824858.80387 670069 4432ce5f77110bcf16079b76995a42b2 ""
-  "/home/dadams/Repos/CV/2025/adams_david_2025.tex" 1758244745.48794 20200 f00f3a98bd4d2daf1efef577a57acd07 ""
+  "/home/dadams/Repos/CV/2025/adams_david_2025.tex" 1758247405.73438 20192 1b1f35e8a7710765842f5387b2df1fc4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf" 1255129361 107448 a9e5b7aaaf5f74194deee407f2fd1552 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-boldoblique.otf" 1255129361 114984 e16fc63df28f359d37aed8d798143a09 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -118,9 +118,9 @@
   "/usr/share/fonts/TTF/FiraSans-Bold.ttf" 1593159386 521312 00083505807ba4ccf7fb2d335e88f488 ""
   "/usr/share/fonts/TTF/FiraSans-Italic.ttf" 1593159386 492148 3284e3d97b221dd5422d875371648298 ""
   "/usr/share/fonts/TTF/FiraSans-Regular.ttf" 1593159386 487472 f8e04962e4e102e196c989fc3f341315 ""
-  "adams_david_2025.aux" 1758244746.60995 162 8041607b76d73e3dcbdb7e912bad98fd "lualatex"
-  "adams_david_2025.out" 1758244746.37295 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
-  "adams_david_2025.tex" 1758244745.48794 20200 f00f3a98bd4d2daf1efef577a57acd07 ""
+  "adams_david_2025.aux" 1758247406.8824 162 8041607b76d73e3dcbdb7e912bad98fd "lualatex"
+  "adams_david_2025.out" 1758247406.64694 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "adams_david_2025.tex" 1758247405.73438 20192 1b1f35e8a7710765842f5387b2df1fc4 ""
   (generated)
   "adams_david_2025.aux"
   "adams_david_2025.log"
