@@ -3,8 +3,16 @@
 % Copyright (C) 2025 David P. Adams dpadams@fullerton.edu
 %
 % Adapted from http://jblevins.org/cv.tex
+\DocumentMetadata{
+  pdfstandard=UA-2,               % PDF/UA-2 standard for accessibility
+  pdfversion=2.0,                 % PDF version 2.0
+  lang=en-US                      % Document language set to US English
+}
 
 \documentclass[12pt,letterpaper]{article}
+
+\usepackage[american]{babel}      % Set language to American English
+
 
 \usepackage{hyperref}
 \usepackage{geometry} 
@@ -70,6 +78,19 @@
 }
 \setlist[enumerate]{itemsep=0.25em}
 
+% Tagging for accessibility
+% Check if the tagpdf package is available
+\IfFileExists{tagpdf-base.sty}{
+  % If available, load the tagpdf package for accessibility tagging
+  \usepackage{tagpdf}
+  % Activate all tagging features and enable interword spacing for better accessibility
+  \tagpdfsetup{activate-all=true, interwordspace=true}
+}{
+  % If the tagpdf package is not installed, provide a fallback
+  % Define a dummy \tagpdfsetup command to avoid compilation errors
+  \newcommand\tagpdfsetup[1]{}
+}
+
 \begin{document}
     
 % Place name at left
@@ -114,7 +135,7 @@
   \section*{Academic and Professional Appointments}
 
   \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-      \item Public Administration Coordinator and MPA Director, Division of Politics, Administration, and Justice, California State University, Fullerton, 2024--Present. \vspace{0.2cm}
+      \item Associate Chair and MPA Director, Division of Politics, Administration, and Justice, California State University, Fullerton, 2024--Present. \vspace{0.2cm}
       \item Associate Professor of Public Administration (with Tenure), Division of Politics, Administration, and Justice, California State University, Fullerton, 2022--Present. \vspace{0.2cm}
       \item Assistant Professor of Public Administration, Division of Politics, Administration, and Justice, California State University, Fullerton,  2016--2022.\vspace{0.2cm}
       \item Adjunct Professor, Department of Political Science, Auburn University, Summer 2016.
@@ -124,46 +145,55 @@
 
 \subsection*{Publications}
 
-\subsubsection*{Peer-Reviewed Journal Articles}
+\subsubsection*{Peer-Reviewed Publications}
+
+\textbf{Journal Articles}
 
 \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+
+    \item Arthur, Prince, David P. Adams, Jonathan M. Fisk, Matthew G. Jarvis, and Christopher A. Simon. 2025. \href{https://doi.org/10.1007/s11115-025-00586-3}{``Pioneering Policy: Exploring the Role of Multi-Agency Collaboration in California's Climate Investment Program 2015--2024.''} \emph{Public Organization Review}, forthcoming.
 
     \item Adams, David P. 2025. ``The Code Is the Policy: Blockchain Governance and the Authoritarian Pursuit of Administrative Efficiency.'' \emph{Administrative Theory \& Praxis}, forthcoming.
 
     \item Adams, David P., Jonathan M. Fisk, and Adam F. Mayer. 2025. \href{https://doi.org/10.1080/10841806.2025.2537600}{``Administrative Resilience under Pressure: Environmental Governance and Institutional Adaptation.''} \emph{Administrative Theory \& Praxis}, 1--7.
 
-    \item McKnight, Steve, Adams, David P., and Fisk, Jonathan M. 2025. \href{https://doi.org/10.1111/psj.70064}{``Does Disclosure Matter? Coupling Information to Performance in Texas.''} \emph{Policy Studies Journal}.
+    \item McKnight, Steve, Adams, David P., and Fisk, Jonathan M. 2025. \href{https://doi.org/10.1111/psj.70064}{``Does Disclosure Matter? Coupling Information to Performance in Texas.''} \emph{Policy Studies Journal}, 1--12.
 
     \item Amin, Alisha, David P. Adams, Jonathan M. Fisk, and Adam F. Mayer. 2025. \href{https://doi.org/10.1080/1523908X.2025.2480289}{``Plugged In? Assessing the Distribution of Orphaned Wells.''} \emph{Journal of Environmental Policy and Planning}, March, 1--14.
 
-    \item Mahfuza, Zachary, Jonathan Fisk, and David P. Adams. 2021. \href{https://doi.org/10.1111/polp.12401}{``Crude Contempt: Examining Local Pushback to Oil and Gas Development in California.''} \emph{Journal of Politics and Policy} 49(2).
+    \item Mahfuza, Zachary, Jonathan Fisk, and David P. Adams. 2021. \href{https://doi.org/10.1111/polp.12401}{``Crude Contempt: Examining Local Pushback to Oil and Gas Development in California.''} \emph{Journal of Politics and Policy} 49(2), 479--501.
 
-    \item Adams, David P., Meriem Doucette, and Justin Tucker. 2019. \href{https://escholarship.org/uc/item/2mz2n6qk}{``Affluence, Risk, and Community Engagement: The Case of Ascon and Huntington Beach.''} \emph{California Journal of Politics and Policy} 11(3).   
+    \item Adams, David P., Meriem Doucette, and Justin Tucker. 2019. \href{https://escholarship.org/uc/item/2mz2n6qk}{``Affluence, Risk, and Community Engagement: The Case of Ascon and Huntington Beach.''} \emph{California Journal of Politics and Policy} 11(3), 1--19.   
 
 \end{itemize}
 
-\subsubsection*{Edited Textbooks}
+\textbf{Books}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+    \item Adams, David P., Jonathan M. Fisk, and John Morris. \emph{Navigating Water Quality Outcomes in American Watersheds}. Under Contract with Cambridge University Press: New York, N.Y.
+\end{itemize}
+
+\subsection*{Books Under Review}
+
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item Nahar, Nurun, David P. Adams, Jonathan M. Fisk, and John C. Morris. \emph{The Hydrocarbon Horizon: The Politics of Oil and Gas Site Closure}. Under review with Routledge.
+\end{itemize}
+
+\subsubsection*{Non-Peer-Reviewed Publications}
+
+\textbf{Edited Textbooks}
 \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
     \item Doucette, Meriem, and David P. Adams, eds. 2019. \emph{Ethics in Public Administration: Ethics, Corruption, and Public Policy}. San Diego, CA: Cognella.
 \end{itemize}
 
-\subsubsection*{Textbook Chapters}
+\textbf{Textbook Chapters}
 \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
     \item Adams, David P. 2019. ``Minnesota Environmental Policy.'' In \emph{Minnesota Government and Politics}, edited by James B. Cottrill, Shawn E. Schooley, Steven C. Wagner, and Shoua S. Yang. Dubuque, IA: Great River Learning Publishers.
-\end{itemize}
-
-\subsection*{Books Under Contract}
-
-\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-    \item Adams, David P., Jonathan M. Fisk, and John Morris. \emph{Navigating Water Quality Outcomes in American Watersheds}. Under Contract with Cambridge University Press: New York, N.Y.
 \end{itemize}
 
 \subsection*{Manuscripts Under Review}
 \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
   
-    \item Nahar, Nurun, David P. Adams, Jonathan M. Fisk, Adam F. Mayer, and John C. Morris. ``Inspector-Level Bureaucracy: Drilling into Discretion in a State Natural Resource Agency.'' Under revision review at \emph{Review of Policy Research}.
-
-    \item Arthur, Prince, David P. Adams, Jonathan M. Fisk, Matthew G. Jarvis, and Christopher A. Simon. ``Exploring the Role of Multi-Agency Coordination in California's Climate Investment Program 2015--2024.'' Under review at \emph{Public Organization Review}.
+    \item Nahar, Nurun, David P. Adams, Jonathan M. Fisk, Adam F. Mayer, and John C. Morris. ``Inspector-Level Bureaucracy: Drilling into Discretion in a State Natural Resource Agency.'' Under revision review at \emph{Environmental Policy and Governance}.
 
 \end{itemize}
 
@@ -276,45 +306,45 @@
 
 \subsubsection*{Service to the Public Administration Unit at California State University, Fullerton}
 \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-    \item PA Coordinator and MPA Program Director, 2024--present
-    \item MPA Program Faculty Advisor, 2024--2025
-    \item Advisor, Public Administration Student Association (PASA), 2025--present
-    \item Advisor, Pi Alpha Alpha International Honor Society, 2023--present
-    \item MPA Program Admissions Coordinator, 2023--2025
-    \item BAPA Program Faculty Advisor, 2023--2025
+    \item Associate Chair and MPA Program Director, 2024--present
     \item Chair, PS/PA Diversity, Equity, and Inclusion Committee, 2023--present
-    \item PA Program Curriculum and Assessment Committee, 2020--2022, 2024--present
-    \item PA Program Faculty Search Committee, 2023--2024
-    \item PA Program Awards Committee, 2018--present
+    \item MPA Program Admissions Coordinator, 2023--2025
     \item PA Program Assessment Coordinator, 2017--present
     \item MPA Program NASPAA Accreditation Liaison, 2017--present
+    \item MPA Program Faculty Advisor, 2024--2025
+    \item BAPA Program Faculty Advisor, 2023--2025
+    \item Advisor, Pi Alpha Alpha International Honor Society, 2023--present
+    \item PA Program Curriculum and Assessment Committee, 2020--2022, 2024--present
+    \item PA Program Awards Committee, 2018--present
 \end{itemize}
 
 \subsubsection*{Service to the Division of Politics, Administration, and Justice at California State University, Fullerton}
 \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
     \item Chair, Division Search Committee (Public Administration), 2025--present
+    \item Chair, Division Personnel Review Committee, 2025--present
     \item Chair, Division Personnel Committee, 2024--2025
-    \item Member, Division Personnel Committee, 2023--2024
     \item Executive Committee, 2018--2022, 2023--present
-    \item Advisor, Pi Sigma Alpha National Political Science Honor Society, 2023--2025
+    \item Division Personnel Review Committee, 2023--2024
+    \item Division Personnel Committee, 2023--2024
+    \item Division Search Committee (Public Administration), 2023--2024
     \item Division Peer Review Committee, 2022--2023, 2024--2025
-    \item Division Commencement Committee, 2017--2018, 2024--2025
+    \item Advisor, Pi Sigma Alpha National Political Science Honor Society, 2023--2025
     \item Division Awards Committee, 2018--2020, 2023--2024
+    \item Division Commencement Committee, 2017--2018, 2024--2025
     \item Division Curriculum Committee, 2020--2022
-    \item Public Administration Faculty Search Committee, 2023--2024
 \end{itemize}
 
 \subsubsection*{Service to the College of Humanities and Social Sciences at California State University, Fullerton}
 \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-    \item College Personnel Standards Review Committee (CPSRC), 2025--present
-    \item Faculty Research and Grants Committee, 2023--2025
+    \item Member, College Personnel Standards Review Committee (CPSRC), 2025--present
+    \item Member, Faculty Research and Grants Committee, 2023--present
 \end{itemize}
 
 \subsubsection*{Service to the University at California State University, Fullerton}
 \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-    \item Library and Technology Committee, 2025--present
-    \item Graduate Education Committee, 2025--present
-    \item Assessment \& Educational Effectiveness Committee, 2024--2025
+    \item Member, University Senate Library and Technology Committee, 2025--present
+    \item Member, University Senate Graduate Education Committee, 2025--present
+    \item Member, University Senate Assessment \& Educational Effectiveness Committee, 2024--2025
     \item Faculty Advisor, Tau Kappa Epsilon International Fraternity, 2017--2024
     \item Member, G.E. Assessment Faculty Learning Community, 2019--2021
     \item Faculty Advisor, United Nations Association--USA; Generation United Nations, 2017--2019
@@ -322,22 +352,23 @@
 
 \subsubsection*{Service to the Profession}
 \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-  \item Manuscript Reviewer, \emph{Journal of Politics and Policy}, 2022--present
-  \item Manuscript Reviewer, \emph{Journal of Public and Nonprofit Affairs}, 2019--present
-  \item Manuscript Reviewer, \emph{Journal of Political Science Education}, 2018--present
-  \item Panel Chair, Environment and Public Policy, Midwest Political Science Association Annual Meeting, 2018
-  \item Panel Chair, Flirting with Disaster: Politics, the Environment \& Public Policy, Midwest Political Science Association Annual Meeting, 2017
-  \item Round Table Participant, Teaching: Graduate Education, Midwest Political Science Association Annual Meeting, 2017
-  \item Deil Wright Best Paper in Federalism Award Reviewer, American Political Science Association Annual Meeting, 2016
-  \item Student Affairs Committee Member, International Society for Social and Natural Resources, 2013--2014
-  \item Discussant, Federalism and Intergovernmental Relations Panel, Southern Political Science Association Annual Meeting, 2013
-  \item Panelist, Assessment and Teaching Political Science Round Table, Southern Political Science Association Annual Meeting, 2012
+    \item Conference Organizer, Environment and Natural Resources Mini-Conference, American Society for Public Administration Annual Conference, West Hollywood, CA, 2026
+    \item Section Member, Environment and Natural Resources (SENRA), American Society for Public Administration, 2020--present
+    \item Section Member, LGBTQ+ Public Administration, American Society for Public Administration, 2020--present
+    \item Section Member, Democracy and Social Justice, American Society for Public Administration, 2020--present
+    \item Manuscript Reviewer, \emph{Administrative Theory \& Praxis}, 2025--present
+    \item Manuscript Reviewer, \emph{Journal of Public and Nonprofit Affairs}, 2019--present
+    \item Manuscript Reviewer, \emph{Journal of Political Science Education}, 2018--present
+    \item Panel Chair, Environment and Public Policy, Midwest Political Science Association Annual Meeting, 2018
+    \item Panel Chair, Flirting with Disaster: Politics, the Environment \& Public Policy, Midwest Political Science Association Annual Meeting, 2017
+    \item Round Table Participant, Teaching: Graduate Education, Midwest Political Science Association Annual Meeting, 2017
+    \item Deil Wright Best Paper in Federalism Award Reviewer, American Political Science Association Annual Meeting, 2016
+    \item Student Affairs Committee Member, International Society for Social and Natural Resources, 2013--2014
+    \item Discussant, Federalism and Intergovernmental Relations Panel, Southern Political Science Association Annual Meeting, 2013
+    \item Panelist, Assessment and Teaching Political Science Round Table, Southern Political Science Association Annual Meeting, 2012
 \end{itemize}
-
-
 \section*{Professional Memberships}
 \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-  \item American Political Science Association
   \item American Society for Public Administration
   \item International Society for Social and Natural Resources
   \item Pi Sigma Alpha National Political Science Honor Society
@@ -346,8 +377,8 @@
 
 	
 % Footer
-\vspace{.5in}
-%\vspace{5cm}
+  \tagpdfsetup{activate-all=true, interwordspace=true}
+\vspace{1em}
 \begin{center}
   \begin{small}
     Last updated: \today
