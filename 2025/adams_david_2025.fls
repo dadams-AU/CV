@@ -15,7 +15,7 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/lualibs/lualibs-extended.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/lualibs/lualibs-extended-merged.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload-log.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/fontloader-basics-gen.lua
-OUTPUT /home/dadams/.texlive2025/texmf-var/m_t_x_t_e_s_t.tmp
+OUTPUT /usr/local/texlive/2025/texmf-var/m_t_x_t_e_s_t.tmp
 INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload-parsers.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload-configuration.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload-status.lua
@@ -60,6 +60,7 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload-tounic
 INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload-case.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload-bcp47.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.lua
+INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/lua-uni-algos/lua-uni-stage-tables.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/documentmetadata-support.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-testphase.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/tagpdf-base.sty
@@ -72,7 +73,7 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdfmanagement-testphase/luali
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-firstaid.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo
-INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
+INPUT /usr/local/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
 INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/luababel.def
@@ -119,7 +120,7 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg
 INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc
-INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
+INPUT /usr/local/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
 INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/firasans-regular.luc
 INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/firasans-bold.luc
 INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/firasans-italic.luc
