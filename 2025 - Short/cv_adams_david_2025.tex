@@ -1,190 +1,193 @@
-% David P. Adams - Curriculum Vitae
-%
-% Copyright (C) 2025 David P. Adams dpadams@fullerton.edu
-%
-% Adapted from http://jblevins.org/cv.tex
+% David P. Adams - 2-Page CV for Mellon New Directions
+% Compact, public-facing emphasis; preserves your typography/accessibility
 
+\DocumentMetadata{
+  pdfstandard=UA-2,
+  pdfversion=2.0,
+  lang=en-US
+}
 \documentclass[12pt,letterpaper]{article}
 
+\usepackage[american]{babel}
 \usepackage{hyperref}
-\usepackage{geometry} 
+\usepackage{geometry}
 \usepackage{enumitem}
 \usepackage{multicol}
 \usepackage{sectsty}
 \frenchspacing
 \clubpenalty=500000
 \widowpenalty=500000
-% Set your name here
+
 \def\name{David P. Adams}
 
-% The following metadata will show up in the PDF properties
 \hypersetup{
-  colorlinks = true,
-  urlcolor = black,
-  pdfauthor = {\name},
-  pdfkeywords = {public policy, public administration, environmental policy, federalism, collaborative governance, social networks, American political institutions, public service ethics, political science pedagogy},
-  pdftitle = {\name: David P. Adams - Curriculum Vitae},
-  pdfsubject = {Curriculum Vitae},
-  pdfpagemode = UseNone
+  colorlinks=true,
+  urlcolor=black,
+  pdfauthor={\name},
+  pdfkeywords={public administration, public policy, environmental governance, spatial equity, collaborative governance, GIS},
+  pdftitle={\name: Curriculum Vitae (2 pages)},
+  pdfsubject={Curriculum Vitae},
+  pdfpagemode=UseNone
 }
 
+% Slightly tighter body box to reliably fit in 2 pages
 \geometry{
-  body={6.5in, 9.0in},
+  body={6.5in, 9.4in},
   left=1.0in,
-  top=1.0in
+  top=0.7in
 }
 
-% Customize page headers
 \pagestyle{myheadings}
 \markright{\name}
 \thispagestyle{empty}
 
-% Custom font for improved readability
 \usepackage{fontspec}
 \setmainfont{Fira Sans}[
-    UprightFont = *-Regular,
-    BoldFont = *-Bold,
-    ItalicFont = *-Italic,
-    BoldItalicFont = *-BoldItalic
+  UprightFont = *-Regular,
+  BoldFont    = *-Bold,
+  ItalicFont  = *-Italic,
+  BoldItalicFont = *-BoldItalic
 ]
 
-
-% Adjusting section and subsection styles for new font
-\sectionfont{\sffamily\bfseries\normalsize}
-\subsectionfont{\sffamily\bfseries\itshape\normalsize}
+\sectionfont{\sffamily\bfseries\Large}
+\subsectionfont{\sffamily\bfseries\itshape\large}
 \subsubsectionfont{\sffamily\bfseries\itshape\normalsize}
 
-% Don't indent paragraphs.
-\setlength\parindent{0em}
+\setlength\parindent{0pt}
 
-% Make lists without bullets and compact spacing
+% Compact list environments
 \renewenvironment{itemize}{
   \begin{list}{}{
-    \setlength{\leftmargin}{1.5em}
-    \setlength{\itemsep}{0.25em}
+    \setlength{\leftmargin}{1.2em}
+    \setlength{\itemsep}{0.15em}
     \setlength{\parskip}{0pt}
-    \setlength{\parsep}{0.25em}
+    \setlength{\parsep}{0.15em}
   }
 }{
   \end{list}
 }
-\setlist[enumerate]{itemsep=0.25em}
+\setlist[enumerate]{itemsep=0.15em}
+
+% Accessibility tagging if available
+\IfFileExists{tagpdf-base.sty}{
+  \usepackage{tagpdf}
+  \tagpdfsetup{activate-all=true, interwordspace=true}
+}{
+  \newcommand\tagpdfsetup[1]{}
+}
 
 \begin{document}
-    
-% Place name at left
-%{\huge \name}
-    
-% Alternatively, print name centered and bold:
+
 \centerline{\huge \bf \name}
 \smallskip
-\centerline{\small{\textsc{abbreviated curriculum vitae}}}
-
+\centerline{\small{\textsc{curriculum vitae (two pages)}}}
 \bigskip
 
-% Contact Information
-\noindent
-
-\begin{minipage}[t]{0.55\textwidth}
-    Division of Politics, Administration, and Justice \\
-    California State University, Fullerton \\
-    800 North State College Boulevard  \\
-    Fullerton, California 92834
+\begin{minipage}[t]{0.57\textwidth}
+Division of Politics, Administration, and Justice \\
+California State University, Fullerton \\
+800 North State College Boulevard \\
+Fullerton, California 92834
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.4\textwidth}
-    Office: \hspace{6em}(657) 278-4770 \\
-    Cell: \hspace{6.5em} (949) 659-3621 \\
-    Website: \hspace{6.5em}\href{https://dadams.io}{dadams.io} \\
-    Email: \hspace{1.2em}\href{mailto:dpadams@fullerton.edu}{dpadams@fullerton.edu}
+\begin{tabular}{@{}ll}
+Office: & (657) 278-4770 \\
+Cell: & (949) 659-3621 \\
+Web: & \href{https://dadams.io}{dadams.io} \\
+Email: & \href{mailto:dpadams@fullerton.edu}{dpadams@fullerton.edu}
+\end{tabular}
 \end{minipage}
 
+\vspace{0.6em}
 
-  \section*{Education}
+\section*{Education \& Academic Appointments}
+\textbf{Education}\\
+Ph.D., Public Policy and Public Administration, Auburn University, 2016 \\
+M.P.A., Auburn University, 2010 \quad|\quad B.S., Political Science, Kennesaw State University, 2008
 
-  \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-  \item Ph.D., Public Policy and Public Administration, Auburn University, May 2016. \vspace{0.2cm}
-      % Received May 22, 2016
-  \item M.P.A., Public Administration, Auburn University, May 2010. \vspace{0.2cm}
-    % Received May 14, 2010
-  \item B.S., Political Science and Government, Kennesaw State University, May 2008.
-    % Received May 14, 2008
-  \end{itemize}
-  
-  \section*{Academic and Professional Appointments}
+\vspace{0.3em}
+\textbf{Appointments}\\
+Associate Chair \& MPA Director, CSUF, 2024--present \\
+Associate Professor (tenured), CSUF, 2022--present \\
+Assistant Professor, CSUF, 2016--2022 \\
+Adjunct Professor, Auburn University, Summer 2016
 
-  \begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-      \item Public Administration Coordinator, Division of Politics, Administration, and Justice, California State University, Fullerton, 2024--Present. \vspace{0.2cm}
-      \item Associate Professor of Public Administration (with Tenure), Division of Politics, Administration, and Justice, California State University, Fullerton, 2022--Present. \vspace{0.2cm}
-  \end{itemize}
+\section*{Research Focus}
+Environmental governance; administrative capacity \& collaborative networks; \textbf{spatial equity} in policy design and outcomes; technology, data, and institutions. Current work advances \textbf{GIS- and PostGIS-based} spatial analysis to evaluate distributional impacts and administrative performance in climate investments, oil \& gas, and public safety technologies.
 
-\section*{Research}
-
-\subsection*{Publications}
-
-\subsubsection*{Selected Publications}
-
-\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-
-  \item Mahfuza, Zachary, Jonathan Fisk, and David P. Adams. 2021. \href{https://doi.org/10.1111/polp.12401}{``Crude Contempt: Examining Local Pushback to Oil and Gas Development in California.''} \emph{Journal of Politics and Policy} 49(2).
-
-  \item Adams, David P., Meriem Doucette, and Justin Tucker. 2019. \href{https://escholarship.org/uc/item/2mz2n6qk}{``Affluence, Risk, and Community Engagement: The Case of Ascon and Huntington Beach.''} \emph{California Journal of Politics and Policy} 11(3).   
-
+\section*{Selected Peer-Reviewed Publications (2019--2025)}
+\begin{itemize}
+  \item Adams, D. P. (forthcoming). \emph{The Code Is the Policy: Blockchain Governance and the Authoritarian Pursuit of Administrative Efficiency}. \emph{Administrative Theory \& Praxis}.
+  \item Adams, D. P., J. M. Fisk, \& A. P. Mayer (2025). Administrative Resilience Under Pressure. \emph{Administrative Theory \& Praxis}, 1--7. \href{https://doi.org/10.1080/10841806.2025.2537600}{doi}
+  \item McKnight, S., D. P. Adams, \& J. M. Fisk (2025). Does Disclosure Matter? \emph{Policy Studies Journal}, 1--12. \href{https://doi.org/10.1111/psj.70064}{doi}
+  \item Amin, A., D. P. Adams, J. M. Fisk, \& A. P. Mayer (2025). Plugged In? Orphaned Wells. \emph{Journal of Environmental Policy \& Planning}, 1--14. \href{https://doi.org/10.1080/1523908X.2025.2480289}{doi}
+  \item Arthur, P., D. P. Adams, J. M. Fisk, M. G. Jarvis, \& C. A. Simon (forthcoming). Multi-Agency Collaboration in California's Climate Investments (2015--2024). \emph{Public Organization Review}. \href{https://doi.org/10.1007/s11115-025-00586-3}{doi}
+  \item Adams, D. P., M. Doucette, \& J. Tucker (2019). Affluence, Risk, and Community Engagement. \emph{California Journal of Politics \& Policy} 11(3), 1--19. \href{https://escholarship.org/uc/item/2mz2n6qk}{open}
 \end{itemize}
 
-\subsection*{Books Under Contract}
-
-\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-  \item Adams, David P., Jonathan M. Fisk, and John Morris. \emph{Navigating Water Quality Outcomes in American Watersheds}. Under Contract with Cambridge University Press: New York, N.Y.
+\subsection*{Books}
+\begin{itemize}
+  \item Adams, D. P., J. M. Fisk, \& J. Morris. \emph{Navigating Water Quality Outcomes in American Watersheds}. Forthcoming, Cambridge University Press.
 \end{itemize}
 
-
-\subsection*{Selected Conference Presentations}
-	\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-
-      \item Adams, David P., Nurun Nahar, Jonathan M. Fisk, Adam F. Mayer, and John C. Morris. 2024. ``Inspector-Level Bureaucracy: Drilling into Discretion in a State Natural Resource Agency.'' Paper presented at the national conference of the American Society for Public Administration, Minneapolis, MN, March.
-      
-      \item Adams, David P., Jonathan M. Fisk, and Steve McKnight. 2024. ``Does Disclosure Matter? Coupling Information to Performance in Texas.'' Paper presented at the national conference of the American Society for Public Administration, Minneapolis, MN, March.
-      
-      \item Adams, David P., Alisha Amin, Jonathan M. Fisk, and Adam F. Mayer. 2024. ``Plugged In? Assessing the Distribution of Orphaned Wells.'' Paper presented at the annual conference of the Midwest Political Science Association, Chicago, IL, March.
-    \end{itemize}
-  
-
-
-\section*{Grants, Honors, and Awards}
-\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-  \item California State University, Fullerton H\&SS Dean's Research Award for Associate Professors, \$2,500, Spring 2025.
-  \item California State University, Fullerton Award for Outstanding Service, 2023.
-  \item California State University, Fullerton Office of Research and Sponsored Projects Summer Grant, \$5,000, 2021.
-  \item California State University, Fullerton Faculty Advisor of Distinction Award, 2018.
+\subsection*{Under Review / In Revision (Selected)}
+\begin{itemize}
+  \item Nahar, N., D. P. Adams, J. M. Fisk, A. F. Mayer, \& J. C. Morris. Inspector-Level Bureaucracy: Discretion in a State Natural Resource Agency. (revise \& resubmit)
+  \item Reill, K., \& D. P. Adams. Equity, Engagement, Ethics, and Empathy: City Manager Vignette Study. (under review)
 \end{itemize}
 
-\section*{Professional Development}
-\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-  \item NASPAA Accreditation Institute, 2017, 2024
-  \item Data Analysis with Python Certification, FreeCodeCamp, 2021
-  \item Interuniversity Consortium for Political and Social Research (ICPSR) Summer Program in Quantitative Methods of Social Research, University of Michigan, 2012
-  \item Teaching and Learning Conference of the American Political Science Association, Washington, D.C., 2012
+\section*{External Funding, Honors, \& Awards (Selected)}
+\begin{itemize}
+  \item RSCA Intramural Grant, California State University, Fullerton, \$15,000 (2025--2026)
+  \item H\&SS Dean's Research Award for Associate Professors, \$2,500 (Spring 2025)
+  \item CSUF Award for Outstanding Service (2023)
+  \item ORSP Summer Grant, CSUF, \$5,000 (2021)
+  \item Auburn Graduate School Distinguished Dissertation Award (2016)
 \end{itemize}
 
-\section*{Service and Professional Memberships}
-\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
-    \item Chair, Division Personnel Review Committee, CSU Fullerton, 2024--Present.
-    \item Faculty Research and Grants Committee, CSU Fullerton, 2023--Present.
-    \item Manuscript Reviewer: \emph{Journal of Politics and Policy}, \emph{Journal of Public and Nonprofit Affairs}.
-    \item Member: American Political Science Association, American Society for Public Administration.
+\section*{Public-Facing \& Community-Engaged Work (Selected)}
+\begin{itemize}
+  \item \textbf{Program partnerships:} Co-produce applied analyses with California state agencies and local governments (data pipelines, dashboards, policy briefs) on climate investments, water quality, and energy transition.
+  \item \textbf{Open workflows:} Release reproducible notebooks, documentation, and map-centric outputs where agreements allow; mentor practitioner use.
+  \item \textbf{MPA Capstone redesign:} Project-based engagements with municipal partners; integrating equity-centered spatial analysis, decision-support tools, and professional deliverables.
 \end{itemize}
 
-\end{document}	
-	
+\section*{Professional \& Academic Service (Recent, Selected)}
+\begin{itemize}
+  \item Associate Chair \& MPA Program Director, CSUF (2024--present)
+  \item Chair, Division Search Committee (Public Administration) (2025--present)
+  \item Chair, Division Personnel Review Committee (2025--present)
+  \item NASPAA Accreditation Liaison (2017--present); Assessment Coordinator (2017--present)
+  \item Organizer, Environment \& Natural Resources Mini-Conference, ASPA 2026
+  \item Manuscript Reviewer: \emph{Administrative Theory \& Praxis}; \emph{Journal of Public and Nonprofit Affairs}; \emph{Journal of Political Science Education}
+\end{itemize}
 
+\section*{Selected Teaching}
+\textbf{California State University, Fullerton:} POSC 588 (Collaborative Governance); POSC 315 (Intro to Public Policy); POSC 320 (Intro to Public Administration); POSC 509 (Foundations of PA); POSC 521 (Capstone: PA Theory).\\
+\textbf{Auburn University:} State \& Local Government; Intro to PA; Research Methods I; Political Theory; American Government; Policy Process.
 
+\section*{Methods \& Technical Competencies}
+PostgreSQL/\textbf{PostGIS}; Python (geopandas, rasterio, statsmodels); QGIS; spatial econometrics; remote sensing; network/point-pattern analysis; reproducible research (LaTeX, Git); dashboarding \& web mapping for public audiences.
 
+\section*{Recent Refereed Presentations (Abbrev.)}
+\begin{itemize}
+  \item Adams et al. Linking Disclosure to Performance (Colorado). ASPA (2025).
+  \item Arthur et al. Multi-Agency Collaboration in California CCI (2015--2024). ASPA (2025).
+  \item Adams, Fisk, \& Morris. Water Quality Outcomes. ASPA (2024).
+  \item Adams et al. Inspector-Level Bureaucracy. ASPA (2024).
+  \item Adams, Fisk, \& McKnight. Disclosure \& Performance (Texas). ASPA (2024).
+  \item Adams et al. Orphaned Wells Distribution. MPSA (2024).
+\end{itemize}
 
+\section*{Professional Memberships}
+American Society for Public Administration; International Society for Society \& Natural Resources; Pi Sigma Alpha; Pi Alpha Alpha.
 
+\vfill
+\begin{center}
+\begin{small}
+Last updated: \today
+\end{small}
+\end{center}
 
-
-
-
-
-
+\end{document}
