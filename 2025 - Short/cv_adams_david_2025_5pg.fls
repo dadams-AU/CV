@@ -1,7 +1,7 @@
 PWD /home/dadams/Repos/CV/2025 - Short
 INPUT /usr/local/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt
-INPUT /home/dadams/Repos/CV/2025 - Short/cv_adams_david_2025.tex
-OUTPUT cv_adams_david_2025.log
+INPUT /home/dadams/Repos/CV/2025 - Short/cv_adams_david_2025_5pg.tex
+OUTPUT cv_adams_david_2025_5pg.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ltluatex.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload-main.lua
@@ -141,8 +141,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/tagpdf-ns-pdf2.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/tagpdf-parent-child-2.csv
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
-INPUT ./cv_adams_david_2025.aux
-OUTPUT cv_adams_david_2025.aux
+INPUT ./cv_adams_david_2025_5pg.aux
+OUTPUT cv_adams_david_2025_5pg.aux
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -154,11 +154,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-bold.luc
-OUTPUT cv_adams_david_2025.pdf
+OUTPUT cv_adams_david_2025_5pg.pdf
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-boldoblique.luc
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/latex-list-css.html
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/latex-list-css.html
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/latex-align-css.html
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/latex-align-css.html
-INPUT ./cv_adams_david_2025.aux
+INPUT ./cv_adams_david_2025_5pg.aux
