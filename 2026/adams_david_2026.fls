@@ -1,6 +1,6 @@
 PWD /mnt/sda1/Repos/CV/2026
 INPUT /opt/texlive/2026/texmf-var/web2c/luahbtex/lualatex.fmt
-INPUT ./adams_david_2026.tex
+INPUT /home/dadams/Repos/CV/2026/adams_david_2026.tex
 OUTPUT adams_david_2026.log
 INPUT /opt/texlive/2026/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua
 INPUT /opt/texlive/2026/texmf-dist/tex/latex/base/ltluatex.lua
@@ -177,8 +177,6 @@ INPUT /opt/texlive/2026/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT /opt/texlive/2026/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 INPUT ./adams_david_2026.aux
 OUTPUT adams_david_2026.aux
-OUTPUT /home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
-OUTPUT /home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
 OUTPUT adams_david_2026.pdf
 INPUT /opt/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./adams_david_2026.aux

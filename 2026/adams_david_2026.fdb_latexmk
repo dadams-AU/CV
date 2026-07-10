@@ -1,13 +1,14 @@
 # Fdb version 4
-["lualatex"] 1783710843.04284 "adams_david_2026.tex" "adams_david_2026.pdf" "adams_david_2026" 1783710845.02117 0
+["lualatex"] 1783712181.58455 "/home/dadams/Repos/CV/2026/adams_david_2026.tex" "adams_david_2026.pdf" "adams_david_2026" 1783712183.56313 0
   "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1776903624.63094 128404 79b17b03d83a1676c062dca036674a75 ""
   "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1774227198.02875 127321 fbaf1780ae38b09dc6a7cf0452d2c8e0 ""
   "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-bold.luc" 1774227232.44197 212904 7bb97c05c6147836fad37c26384680bc ""
   "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-bolditalic.luc" 1774227232.38397 213996 adbf2c93ee50ec9947353adde53ca7b1 ""
   "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-italic.luc" 1774227232.50797 217285 5b60173b882392222f0dbd714ec35638 ""
   "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-regular.luc" 1774227232.31697 213469 bb4bd47409fcef846d0fbc6de41ee5e0 ""
-  "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1783710844.4133 20891 faf081198d8327f3a5a67af1efbcf755 "lualatex"
+  "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1783710844.4133 20891 faf081198d8327f3a5a67af1efbcf755 ""
   "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1774227197.95875 448480 1d8e554c21314da03299a642af182c60 ""
+  "/home/dadams/Repos/CV/2026/adams_david_2026.tex" 1783712181.41095 23719 177e61ddd8a04d8b8b40dbe090901f41 ""
   "/opt/texlive/2026/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf" 1773812465 135204 f5f20609880fff666e17267854df804d ""
   "/opt/texlive/2026/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bolditalic.otf" 1773812465 135264 21c0102e75ad67ba80fc5e3bd792af52 ""
   "/opt/texlive/2026/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-italic.otf" 1773812465 139208 418e1daec3a0c0b2d8ebb349c646ec22 ""
@@ -170,11 +171,8 @@
   "/opt/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1773812465 5571903 25469a04e3c78dd45ed564c3ff68dcf0 ""
   "/opt/texlive/2026/texmf-var/tex/generic/config/language.dat" 1773812465 6864 31b82c04490201253b68cbad4939654e ""
   "/opt/texlive/2026/texmf-var/web2c/luahbtex/lualatex.fmt" 1773812465 5654691 16b23313f0ea3b02ce263e470b20fa1b ""
-  "adams_david_2026.aux" 1783710844.83805 386 856cfb676ea8e14c27471ad0f1001571 "lualatex"
-  "adams_david_2026.tex" 1783710835.41698 23719 57685e8b9a80d325d29eee9d0be533e7 ""
+  "adams_david_2026.aux" 1783712183.40026 386 856cfb676ea8e14c27471ad0f1001571 "lualatex"
   (generated)
-  "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua"
-  "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc"
   "adams_david_2026.aux"
   "adams_david_2026.log"
   "adams_david_2026.pdf"
