@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1785473160.59707 "adams_david_2026.tex" "adams_david_2026.pdf" "adams_david_2026" 1785473162.60727 0
+["lualatex"] 1785473405.89452 "adams_david_2026.tex" "adams_david_2026.pdf" "adams_david_2026" 1785473407.84034 0
   "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1776903624.63094 128404 79b17b03d83a1676c062dca036674a75 ""
   "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1774227198.02875 127321 fbaf1780ae38b09dc6a7cf0452d2c8e0 ""
   "/home/dadams/.config/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-bold.luc" 1774227232.44197 212904 7bb97c05c6147836fad37c26384680bc ""
@@ -170,8 +170,8 @@
   "/opt/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1773812465 5571903 25469a04e3c78dd45ed564c3ff68dcf0 ""
   "/opt/texlive/2026/texmf-var/tex/generic/config/language.dat" 1773812465 6864 31b82c04490201253b68cbad4939654e ""
   "/opt/texlive/2026/texmf-var/web2c/luahbtex/lualatex.fmt" 1773812465 5654691 16b23313f0ea3b02ce263e470b20fa1b ""
-  "adams_david_2026.aux" 1785473162.43483 386 7dae8777d4b0391b4845274764f8ea90 "lualatex"
-  "adams_david_2026.tex" 1785473151.71382 25625 f7ea548397649adca6e1d028d2cc0494 ""
+  "adams_david_2026.aux" 1785473407.66614 386 7dae8777d4b0391b4845274764f8ea90 "lualatex"
+  "adams_david_2026.tex" 1785473398.45566 25582 22e2e820c23f1751af0a28f2680541cf ""
   (generated)
   "adams_david_2026.aux"
   "adams_david_2026.log"

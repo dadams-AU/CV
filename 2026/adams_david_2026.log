@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.17)  30 JUL 2026 21:46
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.17)  30 JUL 2026 21:50
  restricted system commands enabled.
 **adams_david_2026.tex
 (./adams_david_2026.tex
@@ -1031,7 +1031,7 @@ Here is how much of LuaTeX's memory you used:
 olditalic.otf></opt/texlive/2026/texmf-dist/fonts/opentype/public/tex-gyre/texgy
 reheros-regular.otf></opt/texlive/2026/texmf-dist/fonts/opentype/public/tex-gyre
 /texgyreheros-bold.otf>
-Output written on adams_david_2026.pdf (9 pages, 64679 bytes).
+Output written on adams_david_2026.pdf (9 pages, 64673 bytes).
 
 PDF statistics: 277 PDF objects out of 1000 (max. 8388607)
  235 compressed objects within 3 object streams
