@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.17)  30 JUL 2026 21:50
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.17)  30 JUL 2026 21:58
  restricted system commands enabled.
 **adams_david_2026.tex
 (./adams_david_2026.tex
@@ -1022,7 +1022,7 @@ Here is how much of LuaTeX's memory you used:
  550 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 2 glyph, 12 attribute, 61 glue_spec
 , 7 attribute_list, 1 write nodes
-   avail lists: 1:2,2:865,3:373,4:37,5:1064,6:64,7:7812,9:454,10:5,11:680
+   avail lists: 1:2,2:865,3:373,4:37,5:1052,6:64,7:7812,8:1,9:454,10:5,11:680
  41591 multiletter control sequences out of 65536+600000
  40 fonts using 5008943 bytes
  73i,5n,92p,420b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1031,7 +1031,7 @@ Here is how much of LuaTeX's memory you used:
 olditalic.otf></opt/texlive/2026/texmf-dist/fonts/opentype/public/tex-gyre/texgy
 reheros-regular.otf></opt/texlive/2026/texmf-dist/fonts/opentype/public/tex-gyre
 /texgyreheros-bold.otf>
-Output written on adams_david_2026.pdf (9 pages, 64673 bytes).
+Output written on adams_david_2026.pdf (9 pages, 64786 bytes).
 
 PDF statistics: 277 PDF objects out of 1000 (max. 8388607)
  235 compressed objects within 3 object streams
