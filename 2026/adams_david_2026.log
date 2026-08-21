@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.17)  20 AUG 2026 16:45
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.17)  20 AUG 2026 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -834,19 +834,19 @@ ailable
 (Font)              Font shape `TU/TeXGyreHeros(0)/m/it' tried instead on input
  line 209.
  [2] [3] [4]
-Overfull \hbox (1.85048pt too wide) in paragraph at lines 263--264
+Overfull \hbox (1.85048pt too wide) in paragraph at lines 265--266
 \TU/TeXGyreHeros(0)/m/n/10.95 International Symposium on Society and Resource M
 anagement Annual Meeting, Charleston,
  []
 
 
-Overfull \hbox (3.4565pt too wide) in paragraph at lines 271--272
+Overfull \hbox (3.4565pt too wide) in paragraph at lines 273--274
 \TU/TeXGyreHeros(0)/m/n/10.95 ing through Course Coordination and Integrated As
 signments.” Paper presented at The Teach-
  []
 
 
-Overfull \hbox (1.66585pt too wide) in paragraph at lines 273--274
+Overfull \hbox (1.66585pt too wide) in paragraph at lines 275--276
 []\TU/TeXGyreHeros(0)/m/n/10.95 Hale, Kathleen, Mitchell Brown, and David P. Ad
 ams. 2012. “Enhancing Student Learning through
  []
@@ -860,10 +860,10 @@ L3 programming layer <2026-01-19>
 Here is how much of TeX's memory you used:
  19187 strings out of 468168
  453230 string characters out of 5407813
- 1038151 words of memory out of 5000000
+ 1038449 words of memory out of 5000000
  47670 multiletter control sequences out of 15000+600000
  644867 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,5n,93p,468b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on adams_david_2026.xdv (9 pages, 224412 bytes).
+Output written on adams_david_2026.xdv (9 pages, 226848 bytes).
