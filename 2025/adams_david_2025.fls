@@ -1,6 +1,6 @@
 PWD /home/dadams/Repos/CV/2025
 INPUT /usr/local/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt
-INPUT /home/dadams/Repos/CV/2025/adams_david_2025.tex
+INPUT ./adams_david_2025.tex
 OUTPUT adams_david_2025.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ltluatex.lua
