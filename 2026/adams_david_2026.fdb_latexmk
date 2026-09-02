@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1787891617.65475 "adams_david_2026.xdv" "adams_david_2026.pdf" "adams_david_2026" 1787891617.86305 0
-  "adams_david_2026.xdv" 1787891617.60144 233616 e68eadecd706f034f6c491f7f112721e "xelatex"
+["xdvipdfmx"] 1788315615.28576 "adams_david_2026.xdv" "adams_david_2026.pdf" "adams_david_2026" 1788315615.49136 0
+  "adams_david_2026.xdv" 1788315615.22712 234432 14bbf0edaba880e115bba43b9776aaeb "xelatex"
   (generated)
   "adams_david_2026.pdf"
   (rewritten before read)
-["xelatex"] 1787891616.3273 "adams_david_2026.tex" "adams_david_2026.xdv" "adams_david_2026" 1787891617.86187 0
+["xelatex"] 1788315613.86504 "adams_david_2026.tex" "adams_david_2026.xdv" "adams_david_2026" 1788315615.49019 0
   "/opt/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1773812465 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/2026/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1773812465 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/opt/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1773812465 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -107,8 +107,8 @@
   "/opt/texlive/2026/texmf-dist/web2c/texmf.cnf" 1773812465 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/opt/texlive/2026/texmf-var/web2c/xetex/xelatex.fmt" 1773812465 5949921 a671d674a73a43e6a25773a43a6a108f ""
   "/opt/texlive/2026/texmf.cnf" 1773812465 585 d90dcc7e4cbb41f80da762fdc25fd0ea ""
-  "adams_david_2026.aux" 1787891617.60144 355 755aa3b1501da2a64753ffa18b1ccb51 "xelatex"
-  "adams_david_2026.tex" 1787891608.85223 27700 ccb63d906ae567c6299af8f12501eb4f ""
+  "adams_david_2026.aux" 1788315615.22712 357 1640a1d69097c2b81649a2863a7f2217 "xelatex"
+  "adams_david_2026.tex" 1788315606.70406 27863 50f82802940603a8253bcefaa379b163 ""
   (generated)
   "adams_david_2026.aux"
   "adams_david_2026.log"
