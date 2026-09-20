@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.17)  20 SEP 2026 10:11
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.17)  20 SEP 2026 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -858,12 +858,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19187 strings out of 468168
- 453230 string characters out of 5407813
- 1038065 words of memory out of 5000000
- 47670 multiletter control sequences out of 15000+600000
- 644867 words of font info for 68 fonts, out of 8000000 for 9000
+ 19211 strings out of 468168
+ 453631 string characters out of 5407813
+ 1038578 words of memory out of 5000000
+ 47684 multiletter control sequences out of 15000+600000
+ 648296 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,5n,93p,468b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on adams_david_2026.xdv (10 pages, 238260 bytes).
+Output written on adams_david_2026.xdv (10 pages, 247268 bytes).

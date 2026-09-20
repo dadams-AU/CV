@@ -218,4 +218,16 @@ INPUT ./adams_david_2026.aux
 INPUT adams_david_2026.aux
 OUTPUT adams_david_2026.aux
 OUTPUT adams_david_2026.xdv
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /opt/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT adams_david_2026.aux
