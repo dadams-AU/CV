@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.17)  20 SEP 2026 11:16
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.17)  20 SEP 2026 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10,7 +10,7 @@ L3 programming layer <2026-01-19>
 (/opt/texlive/2026/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-t
 estphase.sty
 Package: pdfmanagement-testphase 2026-01-23 v0.96y LaTeX PDF management bundle
- (/opt/texlive/2026/texmf-dist/tex/latex/tagpdf/tagpdf-base.sty
+(/opt/texlive/2026/texmf-dist/tex/latex/tagpdf/tagpdf-base.sty
 Package: tagpdf-base 2026-01-29 v0.99y part of tagpdf - provide base, no-op ver
 sions of the user commands 
 \c@g__tag_MCID_abs_int=\count271
@@ -42,7 +42,7 @@ le backend support:XeTeX
 (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-latest.st
 y
 Package: latex-lab-testphase-latest 2025-09-13 v0.1d latex-lab modules
- (/opt/texlive/2026/texmf-dist/tex/latex/tagpdf/tagpdf.sty
+(/opt/texlive/2026/texmf-dist/tex/latex/tagpdf/tagpdf.sty
 Package: tagpdf 2026-01-29 v0.99y  LaTeX kernel code for PDF tagging 
 \l__tag_tmpa_int=\count283
 \l__tag_tmpa_box=\box55
@@ -50,7 +50,6 @@ Package: tagpdf 2026-01-29 v0.99y  LaTeX kernel code for PDF tagging
 \l__tag_loglevel_int=\count284
 \g__tag_unique_cnt_int=\count285
 \l__tag_tag_stop_int=\count286
-
 (/opt/texlive/2026/texmf-dist/tex/latex/tagpdf/tagpdf-mc-code-generic.sty
 Package: tagpdf-mc-code-generic 2026-01-29 v0.99y part of tagpdf - code related
  to marking chunks - generic mode
@@ -96,7 +95,7 @@ f tags
 sty
 Package: latex-lab-testphase-new-or-2 2025-05-10 v0.86d Changes to the output r
 outine
- (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-footnotes.ltx
+(/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-footnotes.ltx
 File: latex-lab-footnotes.ltx 2025-07-04 v0.8o changes to the footnote interfac
 es
 \footnotemargin=\dimen148
@@ -147,12 +146,10 @@ LaTeX template Info: Declaring template type 'item' taking 1 argument(s) on
 LaTeX Info: Redefining \centering on input line 1476.
 LaTeX Info: Redefining \raggedleft on input line 1477.
 LaTeX Info: Redefining \raggedright on input line 1478.
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-sec.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-sec.sty
 Package: latex-lab-testphase-sec 2025-10-20 v0.84k Code related to the tagging 
 of sectioning commands
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-toc.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-toc.sty
 Package: latex-lab-testphase-toc 2025-07-02 v0.85h  Code related to the tagging
  of toc-like lists
 \g__tag_toc_level_int=\count297
@@ -180,8 +177,8 @@ g of floats
 ) (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-bib.sty
 Package: latex-lab-testphase-bib 2025-05-09 v0.81c Code related to the tagging 
 of bibliography and cite command
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-text.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-text.st
+y
 Package: latex-lab-testphase-text 2025-05-10 v0.85f Code related to the tagging
  of various small text commands
 LaTeX Info: Redefining \mbox on input line 84.
@@ -208,11 +205,10 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \extratabsurround=\skip55
 \backup@length=\skip56
 \ar@cellbox=\box60
-))
-(/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-math.sty
+)) (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-math.s
+ty
 Package: latex-lab-testphase-math 2025-03-10 v0.8d code related to the math tag
 ging
-
 (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-math.ltx
 File: latex-lab-math.ltx 2025-10-02 v0.6w Grab all the math(s) and tag it (expe
 riments)
@@ -227,19 +223,17 @@ riments)
 \g__math_mathchoice_int=\count307
 \l__math_grab_env_int=\count308
 \g__math_postdisplaypenalty_int=\count309
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-mathpkg.ltx
+) (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-mathpkg.ltx
 File: latex-lab-mathpkg.ltx 2025-06-20 v0.1c mathpkg adaptions
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-mathintent.ltx
+) (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-mathintent.ltx
 File: latex-lab-mathintent.ltx 2025-08-03 v0.1c MathML intent attributes
 ))
 (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-firstaid.
 sty
 Package: latex-lab-testphase-firstaid 2025-11-03 v2025-11-03 Temporary patches 
 to external packages needed for the tagging project
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-tikz.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-tikz.st
+y
 Package: latex-lab-testphase-tikz 2025-09-27 v0.80d Code related to the tagging
  of tikz pictures
 ))
@@ -271,8 +265,7 @@ File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip58
 \belowcaptionskip=\skip59
 \bibindent=\dimen152
-)
-(/opt/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
+) (/opt/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2026/03/08 v26.4 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
 \babel@savecnt=\count318
@@ -292,7 +285,6 @@ LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?)
 on input line 2111.
 \U@D=\dimen153
 \l@unhyphenated=\language91
-
 (/opt/texlive/2026/texmf-dist/tex/generic/babel/xebabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count319
@@ -302,14 +294,11 @@ Package babel Info: Passing american to babel.
 (babel)             This will be the main language except if
 (babel)             explictly overriden with 'main='.
 (babel)             Reported on input line 4192.
-
 (/opt/texlive/2026/texmf-dist/tex/generic/babel/locale/en/babel-american.tex)
 Package babel Info: Importing font and identification data for american
 (babel)             from babel-en-US.ini. Reported on input line 4330.
-
 (/opt/texlive/2026/texmf-dist/tex/generic/babel-english/american.ldf
 Language: american 2017/06/06 v3.3r English support from the babel system
-
 (/opt/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
@@ -318,77 +307,58 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language22). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language22). Reported on input line 108.
-)))
-(/opt/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+))) (/opt/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
-
 (/opt/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(/opt/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/opt/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/opt/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/opt/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
 (/opt/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(/opt/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (/opt/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-
 (/opt/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-))
-(/opt/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
+)) (/opt/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
-
 (/opt/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/opt/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (/opt/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
 (/opt/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count320
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count321
-)
-(/opt/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
+) (/opt/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen154
 \Hy@linkcounter=\count322
 \Hy@pagecounter=\count323
-
 (/opt/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
-)
-(/opt/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/opt/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count324
-
 (/opt/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 )
@@ -400,17 +370,14 @@ Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count325
-
 (/opt/texlive/2026/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen155
-
 (/opt/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
 (/opt/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
@@ -448,7 +415,6 @@ LaTeX Info: Redefining \url on input line 348.
 \Hy@SectionHShift=\skip60
 ) (/opt/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
-
 (/opt/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
@@ -464,8 +430,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen164
 \Gm@layoutvoffset=\dimen165
 \Gm@dimlist=\toks19
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip61
 \enit@outerparindent=\dimen166
@@ -473,8 +438,7 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box64
 \enit@count@id=\count336
 \enitdp@description=\count337
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/tools/multicol.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \c@tracingmulticols=\count338
 \mult@box=\box65
@@ -544,11 +508,9 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \colbreak@box=\box110
 \mc@col@check@num=\count347
 \g__mc_curr_col_int=\count348
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/sectsty/sectsty.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
-
 
 LaTeX Warning: Command \underbar  has changed.
                Check if current package is valid.
@@ -557,15 +519,14 @@ LaTeX Warning: Command \underbar  has changed.
 LaTeX Warning: Command \underline  has changed.
                Check if current package is valid.
 
-) (/opt/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/opt/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/opt/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty (/opt/texlive/2
+026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/opt/texlive/2026/texmf-
+dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2026-01-19 L3 programming layer (loader) 
 )
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
-
 (/opt/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
 X
@@ -583,11 +544,9 @@ X
 \l__fontspec_tmpa_dim=\dimen176
 \l__fontspec_tmpb_dim=\dimen177
 \l__fontspec_tmpc_dim=\dimen178
-
 (/opt/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+) (/opt/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 
 Package fontspec Info: 
 (fontspec)             Font family 'TeXGyreHeros(0)' created for font 'TeX
@@ -621,25 +580,20 @@ ext;"
 (fontspec)             Heros/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
 text;"
 
-
 (/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip64
-
 For additional information on amsmath, use the `?' option.
 (/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
-
 (/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen179
-))
-(/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen180
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count360
@@ -689,19 +643,15 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-amsmath.ltx
+) (/opt/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-amsmath.ltx
 File: latex-lab-amsmath.ltx 2025-09-29 v0.1i amsmath adaptions
 LaTeX Info: Redefining \eqref on input line 57.
-)
-(/opt/texlive/2026/texmf-dist/tex/latex/bookmark/bookmark.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
-
 (/opt/texlive/2026/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count372
-))
-(./adams_david_2026.aux)
+)) (./adams_david_2026.aux)
 \openout1 = `adams_david_2026.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
@@ -725,7 +675,6 @@ LaTeX Font Info:    ... okay on input line 93.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
 LaTeX Font Info:    ... okay on input line 93.
 Package hyperref Info: Link coloring OFF on input line 93.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -833,7 +782,7 @@ LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/m/sl' in size <10.95> not av
 ailable
 (Font)              Font shape `TU/TeXGyreHeros(0)/m/it' tried instead on input
  line 209.
- [2] [3] [4]
+[2] [3] [4]
 Overfull \hbox (1.85048pt too wide) in paragraph at lines 272--273
 \TU/TeXGyreHeros(0)/m/n/10.95 International Symposium on Society and Resource M
 anagement Annual Meeting, Charleston,
@@ -860,10 +809,10 @@ L3 programming layer <2026-01-19>
 Here is how much of TeX's memory you used:
  19211 strings out of 468168
  453631 string characters out of 5407813
- 1038578 words of memory out of 5000000
+ 1038575 words of memory out of 5000000
  47684 multiletter control sequences out of 15000+600000
  648296 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,5n,93p,468b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on adams_david_2026.xdv (10 pages, 247268 bytes).
+Output written on adams_david_2026.xdv (10 pages, 248828 bytes).
