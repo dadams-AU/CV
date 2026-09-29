@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.7.14)  28 SEP 2026 17:35
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.7.14)  28 SEP 2026 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -623,27 +623,27 @@ ailable
 
 [7]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 407.
+(Font)              <10.95> on input line 408.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 407.
+(Font)              <8> on input line 408.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 407.
+(Font)              <6> on input line 408.
 
 
 [8]
-Overfull \hbox (1.50522pt too wide) in paragraph at lines 417--418
+Overfull \hbox (1.50522pt too wide) in paragraph at lines 418--419
 []\TU/TeXGyreHeros(0)/m/n/10.95 Section Member, Section on Environmental and Na
 tural Resources Administration (SENRA), Amer-
  []
 
 
-Overfull \hbox (3.15868pt too wide) in paragraph at lines 418--419
+Overfull \hbox (3.15868pt too wide) in paragraph at lines 419--420
 []\TU/TeXGyreHeros(0)/m/n/10.95 Section Member, LGBTQ+ Public Administration, A
 merican Society for Public Administration, 2020–
  []
 
 
-Overfull \hbox (0.55624pt too wide) in paragraph at lines 419--420
+Overfull \hbox (0.55624pt too wide) in paragraph at lines 420--421
 []\TU/TeXGyreHeros(0)/m/n/10.95 Section Member, Democracy and Social Justice, A
 merican Society for Public Administration, 2020–
  []
@@ -679,10 +679,10 @@ L3 programming layer <2025-07-11>
 Here is how much of TeX's memory you used:
  15473 strings out of 468457
  347653 string characters out of 5445913
- 934304 words of memory out of 5000000
+ 934301 words of memory out of 5000000
  43764 multiletter control sequences out of 15000+600000
  646726 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,5n,93p,467b,429s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,5n,93p,467b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on adams_david_2026.xdv (10 pages, 247320 bytes).
+Output written on adams_david_2026.xdv (10 pages, 247316 bytes).
