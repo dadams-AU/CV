@@ -1,0 +1,177 @@
+% David P. Adams - Abbreviated CV for the Fall 2027 sabbatical application
+% Two pages, limited to activity relevant to the project (UPS 260.102 IV.A.3).
+% Cut from adams_david_2026.tex; every entry is copied from that file. Edit there first.
+%
+% Copyright (C) 2025 David P. Adams dpadams@fullerton.edu
+%
+% Adapted from http://jblevins.org/cv.tex
+\DocumentMetadata{
+  pdfstandard=UA-2,               % PDF/UA-2 standard for accessibility
+  pdfversion=2.0,                 % PDF version 2.0
+  lang=en-US                      % Document language set to US English
+}
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[american]{babel}      % Set language to American English
+
+
+\usepackage{hyperref}
+\usepackage{geometry} 
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{sectsty}
+\frenchspacing
+\clubpenalty=500000
+\widowpenalty=500000
+% Set your name here
+\def\name{David P. Adams}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {public policy, public administration, environmental policy, collaborative governance, American political institutions},
+  pdftitle = {\name: Abbreviated Curriculum Vitae, Sabbatical Application},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.9in, 9.75in},
+  left=0.8in,
+  top=0.7in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom font for improved readability
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Heros}
+\setsansfont{TeX Gyre Heros}
+
+
+% Adjusting section and subsection styles for new font
+\sectionfont{\sffamily\bfseries\large}
+\subsectionfont{\sffamily\bfseries\itshape\normalsize}
+\subsubsectionfont{\sffamily\bfseries\itshape\normalsize}
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+\setlist[enumerate]{itemsep=0.25em}
+
+% Tagging for accessibility
+% Check if the tagpdf package is available
+\IfFileExists{tagpdf-base.sty}{
+  % If available, load the tagpdf package for accessibility tagging
+  \usepackage{tagpdf}
+  % Activate all tagging features and enable interword spacing for better accessibility
+  \tagpdfsetup{activate-all=true, interwordspace=true}
+}{
+  % If the tagpdf package is not installed, provide a fallback
+  % Define a dummy \tagpdfsetup command to avoid compilation errors
+  \newcommand\tagpdfsetup[1]{}
+}
+
+% Make lists without bullets and compact spacing. This must come after tagpdf,
+% which otherwise replaces the custom itemize environment when it is loaded.
+\renewcommand{\labelitemi}{}
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.08em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.08em}
+  }
+}{
+  \end{list}
+}
+
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{0.7em}{0.25em}
+\titlespacing*{\subsection}{0pt}{0.6em}{0.2em}
+\begin{document}
+
+\centerline{\LARGE \bf \name}
+\smallskip
+\centerline{\small{\textsc{abbreviated curriculum vitae: activity relevant to the proposed sabbatical project}}}
+
+\medskip
+\noindent
+\begin{minipage}[t]{0.6\textwidth}
+    Division of Politics, Administration, and Justice \\
+    California State University, Fullerton
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.38\textwidth}
+    \raggedleft
+    \href{mailto:dpadams@fullerton.edu}{dpadams@fullerton.edu} \\
+    \href{https://dadams.io}{dadams.io}
+\end{minipage}
+
+\section*{Education and Appointments}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item Ph.D., Public Policy and Public Administration, Auburn University, May 2016.
+  \item Associate Chair and MPA Director, Division of Politics, Administration, and Justice, California State University, Fullerton, 2024--Present.
+  \item Associate Professor of Public Administration (with Tenure), Division of Politics, Administration, and Justice, California State University, Fullerton, 2022--Present.
+  \item Assistant Professor of Public Administration, Division of Politics, Administration, and Justice, California State University, Fullerton,  2016--2022.
+\end{itemize}
+
+\section*{Books}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item Adams, David P., Jonathan M. Fisk, and John Morris. \emph{Navigating Water Quality Outcomes in American Watersheds}. May 2026, Cambridge University Press.
+  \item Naher, Nurun, David P. Adams, Jonathan M. Fisk, and John C. Morris. \emph{Governing Fossil Fuel   Legacies: Policy Risk and Resistance}. Under contract with Routledge Press.
+  \item Fisk, Jonathan M., John C. Morris, David P. Adams, and Sean McKelvie. \emph{Big Challenges in Water Policy: The Changing Face of Federalism}. Under contract with University of Utah Press.
+  \item Adams, David P., Alisha Amin, Daniel del Barrio Alvarez, Jonathan M. Fisk, Kris Hartley, Antti Mäenpää, and Ayyoob Sharifi (listed alphabetically). \emph{Data Center Dilemmas: Systems, Resources, and Policies}. Proposal and first chapter under review at University of Utah Press.
+\end{itemize}
+
+\section*{Peer-Reviewed Articles and Chapters}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item Naher, Nurun, David P. Adams, Jonathan M. Fisk, Adam P. Mayer, John C. Morris, and Joseph A. Aistrup. 2025. \href{https://doi.org/10.1002/eet.70038}{``Inspector-Level Bureaucracy: Drilling into Discretion in a State Natural Resource Agency.''} \emph{Environmental Policy and Governance}, 36, 135--148.
+  \item Arthur, Prince, David P. Adams, Jonathan M. Fisk, Matthew G. Jarvis, and Christopher A. Simon. 2025. \href{https://doi.org/10.1007/s11115-025-00958-2}{``Exploring the Role of Multi-Agency Coordination in California's Climate Investment Program 2015--2024.''} \emph{Public Organization Review}, 25, 1861--1878.
+  \item Adams, David P., Jonathan M. Fisk, and Adam P. Mayer. 2025. \href{https://doi.org/10.1080/10841806.2025.2537600}{``Administrative Resilience Under Pressure: Environmental Governance and Institutional Adaptation.''} \emph{Administrative Theory \& Praxis}, 47, 289--295.
+  \item McKnight, Steven P., David P. Adams, and Jonathan M. Fisk. 2025. \href{https://doi.org/10.1111/psj.70064}{``Does Disclosure Matter? Coupling Information to Performance in Texas.''} \emph{Policy Studies Journal}, 54.
+  \item Amin, Alisha, David P. Adams, Jonathan M. Fisk, and Adam P. Mayer. 2025. \href{https://doi.org/10.1080/1523908X.2025.2480289}{``Plugged In? Assessing the Distribution of Orphaned Wells.''} \emph{Journal of Environmental Policy \& Planning}, 27, 496--509.
+  \item Mahafza, Zachary, Jonathan M. Fisk, and David P. Adams. 2021. \href{https://doi.org/10.1111/polp.12401}{``Crude Contempt: Examining Local Pushback to Oil and Gas Development in California.''} \emph{Politics \& Policy}, 49(2), 479--501.
+  \item Jarvis, Matthew G., David P. Adams, and Amir Dabirian. ``Who Welcomes the Data Center? Infrastructure Siting, Community Capacity, and the Limits of NIMBY Politics.'' \emph{IT Professional} 28(4), September/October 2026. Forthcoming.
+  \item Adams, David P. 2019. ``Minnesota Environmental Policy.'' In \emph{Minnesota Government and Politics}, edited by James B. Cottrill, Shawn E. Schooley, Steven C. Wagner, and Shoua S. Yang. Dubuque, IA: Great River Learning Publishers.
+\end{itemize}
+
+\section*{Manuscripts Under Review and in Preparation}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item Adams, David P., Jonathan M. Fisk, Matthew G. Jarvis, and Steven McKnight. ``Disclosure and Enforcement in Fossil Fuel Extraction: Regional Impacts of Texas's Oil and Gas Transparency Reform.'' Under review at \emph{Resources Policy}.
+  \item Adams, David P., Jonathan M. Fisk, and John C. Morris. ``Does Collaboration Deliver? Water Quality Outcomes in Watershed Governance.'' Revise and resubmit, \emph{Society \& Natural Resources}.
+  \item Adams, David P., Jonathan M. Fisk, John C. Morris, and Karen Reill. ``Working Together? The Legitimacy Halo Effect and the Ethics of Collaborative Watershed Governance.'' Under review at \emph{Public Administration Review}.
+  \item Adams, David P., Jonathan M. Fisk, Kris Hartley, Farzana Zinnat, Jeremy Thomson, and Kiley Ryan. ``Public Opposition to Data Centers: A Narrative Policy Framework Analysis of Tucson's Project Blue.'' Under review at \emph{Review of Policy Research}.
+  \item Naher, Nurun, David P. Adams, Jonathan M. Fisk, Binita Mahato, and Alisha Amin. ``When the Mission Changes: The Divergent Effects of Reform in Oil and Gas Compliance.'' In revision for \emph{American Review of Public Administration}.
+  \item Fisk, Jonathan M., David P. Adams, Craig Anderson, and Kris Hartley. ``Data Centers and the Layered Commons: Governing Water, Energy, Air, and Local Voice in Utah.'' In preparation for \emph{Public Administration Review}, Practically Speaking.
+  \item Adams, David P., and Jonathan M. Fisk. ``Spill Patterns: Integrating Social Equity and Intergenerational Ethics in Colorado's Oil and Gas Policy Context.'' In preparation; presented in earlier form as ``Reflections on Equity and the Politics of Energy Transitions'' (with Ryan P. Scott) at the Elevating Ethics in the Public and Nonprofit Sectors Conference, Brigham Young University, 2026.
+\end{itemize}
+
+\section*{Selected Refereed Presentations}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item Scott, Ryan P., David P. Adams, and Jonathan M. Fisk. 2026. ``Reflections on Equity and the Politics of Energy Transitions.'' Presented at the Elevating Ethics in the Public and Nonprofit Sectors Conference, Brigham Young University, Provo, UT.
+  \item Amin, Alisha, David P. Adams, Jonathan M. Fisk, Binita Mahato, and Nurun Naher. 2025. ``Linking Disclosure to Performance: Assessing Colorado's 2021 Spill Reporting Rule and Operator Performance.'' Paper presented at the annual conference of the American Society for Public Administration, Washington, D.C.
+  \item Adams, David P., Jonathan M. Fisk, and John C. Morris. 2024. ``Navigating Water Quality Outcomes in American Watersheds.'' Paper presented at the annual conference of the American Society for Public Administration, Minneapolis, MN.
+\end{itemize}
+
+\section*{Grants and Awards}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item California State University, Fullerton RSCA Intramural Grant, \$15,000, 2025--2026.
+  \item California State University, Fullerton H\&SS Dean's Research Award for Associate Professors, \$2,500, Spring 2025.
+  \item California State University, Fullerton Office of Research and Sponsored Projects Summer Grant, \$5,000, 2021.
+  \item Auburn University Graduate School Distinguished Dissertation Award, 2016.
+\end{itemize}
+
+\section*{Related Teaching and Professional Service}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item POSC 428: Environmental Politics and Policy. Approved through Curriculog and now a permanent catalog course; first offered as POSC 415-T, Fall 2024.
+  \item Conference Organizer, SENRA Symposium (Section on Environmental and Natural Resources Administration), American Society for Public Administration Annual Conference, Hollywood, CA, 2026
+\end{itemize}
+
+\end{document}
