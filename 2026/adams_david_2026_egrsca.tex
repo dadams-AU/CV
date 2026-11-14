@@ -1,0 +1,166 @@
+% David P. Adams - Two-page CV for the 2027 EG-RSCA application (student: Andrew Keat)
+% Relevant research and mentoring experience; Times, 12 pt, 1-inch margins per the call.
+% Cut from adams_david_2026.tex; every entry is copied from that file. Edit there first.
+%
+% Copyright (C) 2025 David P. Adams dpadams@fullerton.edu
+%
+% Adapted from http://jblevins.org/cv.tex
+\DocumentMetadata{
+  pdfstandard=UA-2,               % PDF/UA-2 standard for accessibility
+  pdfversion=2.0,                 % PDF version 2.0
+  lang=en-US                      % Document language set to US English
+}
+
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage[american]{babel}      % Set language to American English
+
+
+\usepackage{hyperref}
+\usepackage{geometry} 
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{sectsty}
+\frenchspacing
+\clubpenalty=500000
+\widowpenalty=500000
+% Set your name here
+\def\name{David P. Adams}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {public policy, public administration, environmental policy, collaborative governance, American political institutions},
+  pdftitle = {\name: Curriculum Vitae, EG-RSCA 2027},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  margin=1in
+}
+
+% Customize page headers
+\pagestyle{empty}
+
+% Custom font for improved readability
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\setsansfont{TeX Gyre Termes}
+
+
+% Adjusting section and subsection styles for new font
+\sectionfont{\bfseries\normalsize}
+\subsectionfont{\sffamily\bfseries\itshape\normalsize}
+\subsubsectionfont{\sffamily\bfseries\itshape\normalsize}
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+\setlist[enumerate]{itemsep=0.25em}
+
+% Tagging for accessibility
+% Check if the tagpdf package is available
+\IfFileExists{tagpdf-base.sty}{
+  % If available, load the tagpdf package for accessibility tagging
+  \usepackage{tagpdf}
+  % Activate all tagging features and enable interword spacing for better accessibility
+  \tagpdfsetup{activate-all=true, interwordspace=true}
+}{
+  % If the tagpdf package is not installed, provide a fallback
+  % Define a dummy \tagpdfsetup command to avoid compilation errors
+  \newcommand\tagpdfsetup[1]{}
+}
+
+% Make lists without bullets and compact spacing. This must come after tagpdf,
+% which otherwise replaces the custom itemize environment when it is loaded.
+\renewcommand{\labelitemi}{}
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0pt}\setlength{\topsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.08em}
+  }
+}{
+  \end{list}
+}
+
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{0.45em}{0.1em}
+\titlespacing*{\subsection}{0pt}{0.6em}{0.2em}
+\begin{document}
+
+\centerline{\large \bf \name}
+\smallskip
+\centerline{\small{\textsc{curriculum vitae: relevant research and mentoring}}}
+
+\medskip
+\noindent
+\begin{minipage}[t]{0.6\textwidth}
+    Division of Politics, Administration, and Justice \\
+    California State University, Fullerton
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.38\textwidth}
+    \raggedleft
+    \href{mailto:dpadams@fullerton.edu}{dpadams@fullerton.edu} \\
+    \href{https://dadams.io}{dadams.io}
+\end{minipage}
+
+\section*{Education and Appointments}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item Ph.D., Public Policy and Public Administration, Auburn University, 2016.
+  \item Associate Chair and MPA Director, Division of Politics, Administration, and Justice, California State University, Fullerton, 2024--Present.
+  \item Associate Professor of Public Administration (with Tenure), California State University, Fullerton, 2022--Present; Assistant Professor, 2016--2022.
+  \item Affiliated Faculty, Environmental Studies Program, California State University, Fullerton.
+\end{itemize}
+
+\section*{Data Center Research}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item Jarvis, Matthew G., David P. Adams, and Amir Dabirian. 2026. \href{https://doi.org/10.1109/MITP.2026.3732817}{``Who Welcomes the Data Center? Infrastructure Siting, Community Capacity, and the Limits of NIMBY Politics.''} \emph{IT Professional}, 28(5), 88--94.
+  \item Adams, David P., Jonathan M. Fisk, Kris Hartley, Farzana Zinnat, Jeremy Thomson, and Kiley Ryan. ``Public Opposition to Data Centers: A Narrative Policy Framework Analysis of Tucson's Project Blue.'' Revise and resubmit, \emph{Review of Policy Research}.
+  \item Fisk, Jonathan M., David P. Adams, Craig Anderson, and Kris Hartley. ``The Commons and Polycentricity: The Case of Data Centers in Utah.'' Under review at \emph{Public Administration Review}, Practically Speaking.
+  \item Adams, David P., Alisha Amin, Daniel del Barrio Alvarez, Jonathan M. Fisk, Kris Hartley, Antti Mäenpää, and Ayyoob Sharifi (listed alphabetically). \emph{Data Center Dilemmas: Systems, Resources, and Policies}. Book proposal and first chapter submitted to the University of Utah Press, October 2026.
+\end{itemize}
+
+\section*{Selected Books and Peer-Reviewed Articles}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item Adams, David P., Jonathan M. Fisk, and John Morris. \emph{Navigating Water Quality Outcomes in American Watersheds}. May 2026, Cambridge University Press.
+  \item Reill, Karen, and David P. Adams. 2026. \href{https://doi.org/10.1080/10999922.2026.2665006}{``Fostering Equity, Engagement, Ethics, and Empathy in Public Service: A Narrative Vignette Study of City Managers.''} \emph{Public Integrity}, May, 1--15.
+  \item Naher, Nurun, David P. Adams, Jonathan M. Fisk, Adam P. Mayer, John C. Morris, and Joseph A. Aistrup. 2026. \href{https://doi.org/10.1002/eet.70038}{``Inspector-Level Bureaucracy: Drilling into Discretion in a State Natural Resource Agency.''} \emph{Environmental Policy and Governance}, 36(1), 135--148.
+  \item McKnight, Steven P., David P. Adams, and Jonathan M. Fisk. 2026. \href{https://doi.org/10.1111/psj.70064}{``Does Disclosure Matter? Coupling Information to Performance in Texas.''} \emph{Policy Studies Journal}, 54(3).
+  \item Arthur, Prince, David P. Adams, Jonathan M. Fisk, Matthew G. Jarvis, and Christopher A. Simon. 2025. \href{https://doi.org/10.1007/s11115-025-00958-2}{``Exploring the Role of Multi-Agency Coordination in California's Climate Investment Program 2015--2024.''} \emph{Public Organization Review}, 25, 1861--1878.
+  \item Amin, Alisha, David P. Adams, Jonathan M. Fisk, and Adam P. Mayer. 2025. \href{https://doi.org/10.1080/1523908X.2025.2480289}{``Plugged In? Assessing the Distribution of Orphaned Wells.''} \emph{Journal of Environmental Policy \& Planning}, 27, 496--509.
+  \item Mahafza, Zachary, Jonathan M. Fisk, and David P. Adams. 2021. \href{https://doi.org/10.1111/polp.12401}{``Crude Contempt: Examining Local Pushback to Oil and Gas Development in California.''} \emph{Politics \& Policy}, 49(2), 479--501.
+\end{itemize}
+
+\section*{Student Research Mentoring}
+\textbf{California State University, Fullerton}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item Karen Reill, MPA. POSC 599 independent study, Spring 2025. First author, \emph{Public Integrity} (2026); fourth author, manuscript under review at \emph{Public Administration Review}.
+  \item John Shipman, Environmental Studies. Supervisor, graduate project, completed Spring 2020. Coauthor, 2019 conference paper.
+  \item Andrew Keat, M.S., Environmental Studies. POSC 599 independent study, Spring 2027; first author, manuscript in preparation for \emph{Urban Affairs Review}. Supervisor, ENST 597 project, planned Spring 2028.
+  \item Senior Honors Project (HONR 497). Mentor, Fall 2025--Spring 2026.
+  \item Undergraduate research assistant. State policy dataset, RSCA grant, 2025--2026.
+  \item POSC 599 graduate independent study, Fall 2024.
+  \item MAPS culminating teaching portfolio. Committee member, September 2024--December 2025.
+\end{itemize}
+
+\textbf{Student Coauthors at Other Institutions}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item Auburn University doctoral students: Zachary Mahafza (first author, \emph{Politics \& Policy}, 2021); Alisha Amin (first author, \emph{Journal of Environmental Policy \& Planning}, 2025); Nurun Naher (first author, \emph{Environmental Policy and Governance}, 2026); Farzana Zinnat (coauthor, revise and resubmit at \emph{Review of Policy Research}).
+  \item Auburn University MPA student: Hanna Krawczyk (coauthor, 2021 American Society for Public Administration paper).
+  \item Steven P. McKnight (first author, \emph{Policy Studies Journal}, 2026), now an assistant professor.
+\end{itemize}
+
+\section*{Grants and Awards}
+\begin{itemize}\leftmargin=2pt\labelindent=5pt\itemindent=-15pt
+  \item California State University, Fullerton RSCA Intramural Grant, \$15,000, 2025--2026.
+  \item California State University, Fullerton H\&SS Dean's Research Award for Associate Professors, \$2,500, Spring 2025.
+  \item California State University, Fullerton Faculty Advisor of Distinction Award, 2018.
+\end{itemize}
+
+\end{document}
